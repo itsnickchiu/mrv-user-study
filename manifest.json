@@ -1,0 +1,849 @@
+{
+"pairs": [
+{
+"id": "e1-028",
+"exp": 1,
+"task": {
+"zh": "墨水滴在布上慢慢擴散。中途畫面被遮住（關燈），之後重新出現。",
+"en": "An ink drop spreads on a cloth. The view is blocked for a while (lights off), then revealed again."
+},
+"v": [
+"07ebd027c983",
+"851c525cc75f"
+],
+"g": 23,
+"c": 0
+},
+{
+"id": "e1-029",
+"exp": 1,
+"task": {
+"zh": "墨水滴在布上慢慢擴散。中途畫面被遮住（關燈），之後重新出現。",
+"en": "An ink drop spreads on a cloth. The view is blocked for a while (lights off), then revealed again."
+},
+"v": [
+"07ebd027c983",
+"461239d78243"
+],
+"g": 23,
+"c": 1
+},
+{
+"id": "e1-030",
+"exp": 1,
+"task": {
+"zh": "墨水滴在布上慢慢擴散。中途畫面被遮住（關燈），之後重新出現。",
+"en": "An ink drop spreads on a cloth. The view is blocked for a while (lights off), then revealed again."
+},
+"v": [
+"07ebd027c983",
+"e07cb62d3740"
+],
+"g": 23,
+"c": 2
+},
+{
+"id": "e1-031",
+"exp": 1,
+"task": {
+"zh": "墨水滴在布上慢慢擴散。中途畫面被遮住（關燈），之後重新出現。",
+"en": "An ink drop spreads on a cloth. The view is blocked for a while (lights off), then revealed again."
+},
+"v": [
+"07ebd027c983",
+"e3affdd9c5ed"
+],
+"g": 23,
+"c": 3
+},
+{
+"id": "e1-036",
+"exp": 1,
+"task": {
+"zh": "發泡劑持續噴出並膨脹。中途畫面被遮住（擋板），之後重新出現。",
+"en": "Expanding foam is sprayed and keeps growing. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"5014073e6944",
+"e5f05542a50c"
+],
+"g": 25,
+"c": 0
+},
+{
+"id": "e1-037",
+"exp": 1,
+"task": {
+"zh": "發泡劑持續噴出並膨脹。中途畫面被遮住（擋板），之後重新出現。",
+"en": "Expanding foam is sprayed and keeps growing. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"5014073e6944",
+"0146433e23a7"
+],
+"g": 25,
+"c": 1
+},
+{
+"id": "e1-038",
+"exp": 1,
+"task": {
+"zh": "發泡劑持續噴出並膨脹。中途畫面被遮住（擋板），之後重新出現。",
+"en": "Expanding foam is sprayed and keeps growing. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"5014073e6944",
+"25cc410dbd8f"
+],
+"g": 25,
+"c": 2
+},
+{
+"id": "e1-039",
+"exp": 1,
+"task": {
+"zh": "發泡劑持續噴出並膨脹。中途畫面被遮住（擋板），之後重新出現。",
+"en": "Expanding foam is sprayed and keeps growing. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"5014073e6944",
+"ca3f424f4f94"
+],
+"g": 25,
+"c": 3
+},
+{
+"id": "e1-056",
+"exp": 1,
+"task": {
+"zh": "綁著降落傘的盒子往下掉。中途畫面被遮住（關燈），之後重新出現。",
+"en": "A box with a parachute is falling. The view is blocked for a while (lights off), then revealed again."
+},
+"v": [
+"0643f925ccc9",
+"fd3ee8ae255f"
+],
+"g": 36,
+"c": 0
+},
+{
+"id": "e1-057",
+"exp": 1,
+"task": {
+"zh": "綁著降落傘的盒子往下掉。中途畫面被遮住（關燈），之後重新出現。",
+"en": "A box with a parachute is falling. The view is blocked for a while (lights off), then revealed again."
+},
+"v": [
+"0643f925ccc9",
+"63495d735c91"
+],
+"g": 36,
+"c": 1
+},
+{
+"id": "e1-058",
+"exp": 1,
+"task": {
+"zh": "綁著降落傘的盒子往下掉。中途畫面被遮住（關燈），之後重新出現。",
+"en": "A box with a parachute is falling. The view is blocked for a while (lights off), then revealed again."
+},
+"v": [
+"0643f925ccc9",
+"36030f562ebd"
+],
+"g": 36,
+"c": 2
+},
+{
+"id": "e1-059",
+"exp": 1,
+"task": {
+"zh": "綁著降落傘的盒子往下掉。中途畫面被遮住（關燈），之後重新出現。",
+"en": "A box with a parachute is falling. The view is blocked for a while (lights off), then revealed again."
+},
+"v": [
+"0643f925ccc9",
+"2178a22ab25d"
+],
+"g": 36,
+"c": 3
+},
+{
+"id": "e1-084",
+"exp": 1,
+"task": {
+"zh": "滑雪者沿雪坡滑下。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A skier goes down a slope. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"5deef7285afd",
+"49aa7103ad1c"
+],
+"g": 46,
+"c": 0
+},
+{
+"id": "e1-085",
+"exp": 1,
+"task": {
+"zh": "滑雪者沿雪坡滑下。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A skier goes down a slope. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"5deef7285afd",
+"275a5dea6f0e"
+],
+"g": 46,
+"c": 1
+},
+{
+"id": "e1-086",
+"exp": 1,
+"task": {
+"zh": "滑雪者沿雪坡滑下。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A skier goes down a slope. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"5deef7285afd",
+"bf956253d07c"
+],
+"g": 46,
+"c": 2
+},
+{
+"id": "e1-087",
+"exp": 1,
+"task": {
+"zh": "滑雪者沿雪坡滑下。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A skier goes down a slope. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"5deef7285afd",
+"1ab88a811ea9"
+],
+"g": 46,
+"c": 3
+},
+{
+"id": "e1-096",
+"exp": 1,
+"task": {
+"zh": "泡沫槍持續噴出泡沫。中途畫面被遮住（布簾），之後重新出現。",
+"en": "A foam gun keeps spraying foam. The view is blocked for a while (a curtain), then revealed again."
+},
+"v": [
+"981697d7bb48",
+"e9c0ba4cadd7"
+],
+"g": 49,
+"c": 0
+},
+{
+"id": "e1-097",
+"exp": 1,
+"task": {
+"zh": "泡沫槍持續噴出泡沫。中途畫面被遮住（布簾），之後重新出現。",
+"en": "A foam gun keeps spraying foam. The view is blocked for a while (a curtain), then revealed again."
+},
+"v": [
+"981697d7bb48",
+"223d80ea66ab"
+],
+"g": 49,
+"c": 1
+},
+{
+"id": "e1-098",
+"exp": 1,
+"task": {
+"zh": "泡沫槍持續噴出泡沫。中途畫面被遮住（布簾），之後重新出現。",
+"en": "A foam gun keeps spraying foam. The view is blocked for a while (a curtain), then revealed again."
+},
+"v": [
+"981697d7bb48",
+"3777e2257c5b"
+],
+"g": 49,
+"c": 2
+},
+{
+"id": "e1-099",
+"exp": 1,
+"task": {
+"zh": "泡沫槍持續噴出泡沫。中途畫面被遮住（布簾），之後重新出現。",
+"en": "A foam gun keeps spraying foam. The view is blocked for a while (a curtain), then revealed again."
+},
+"v": [
+"981697d7bb48",
+"72ea0101be98"
+],
+"g": 49,
+"c": 3
+},
+{
+"id": "e2-123",
+"exp": 2,
+"task": {
+"zh": "機器人用球桿開球。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A robot breaks a rack of billiard balls. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"734e4d8132f8",
+"5b74161d0737"
+],
+"problem": {
+"en": "Extra billiard balls appear, and the cue ball goes back to the start.",
+"zh": "多出許多撞球，母球也回到起點。"
+},
+"g": 8,
+"expected": {
+"zh": "球的數量不變，母球往球堆滾去，不會回到起點。",
+"en": "The number of balls stays the same, and the cue ball rolls toward the rack instead of going back to the start."
+}
+},
+{
+"id": "e2-124",
+"exp": 2,
+"task": {
+"zh": "木塊沿斜坡滑下。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A block slides down a ramp. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"6569a93ddab2",
+"efd0c0c70b36"
+],
+"problem": {
+"en": "A second wooden block appears on the ramp.",
+"zh": "斜坡上多出第二塊木塊。"
+},
+"g": 9,
+"expected": {
+"zh": "斜坡上只有原本那塊木塊，繼續往下滑。",
+"en": "Only the original block is on the ramp, and it keeps sliding down."
+}
+},
+{
+"id": "e2-136",
+"exp": 2,
+"task": {
+"zh": "糖漿倒進罐子。中途畫面被遮住（擋板），之後重新出現。",
+"en": "Syrup is poured into a jar. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"42bbf447df47",
+"205312f5617b"
+],
+"problem": {
+"en": "The liquid level drops, and the clear liquid turns cloudy.",
+"zh": "液面下降，清澈的液體變混濁。"
+},
+"g": 52,
+"expected": {
+"zh": "液面不會下降，液體保持清澈。",
+"en": "The liquid level does not drop, and the liquid stays clear."
+}
+},
+{
+"id": "e2-137",
+"exp": 2,
+"task": {
+"zh": "剪刀剪斷氣球的繩子。中途畫面被遮住（擋板），之後重新出現。",
+"en": "Scissors cut the string of a balloon. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"7d639b66ee56",
+"4ff596f872d5"
+],
+"problem": {
+"en": "The balloon jumps back down, and the scissors go back to the start.",
+"zh": "氣球突然跳回下方，剪刀也回到起點。"
+},
+"g": 6,
+"expected": {
+"zh": "繩子剪斷後氣球繼續往上飄，剪刀不會回到起點。",
+"en": "After the string is cut, the balloon keeps rising, and the scissors do not go back to the start."
+}
+},
+{
+"id": "e2-141",
+"exp": 2,
+"task": {
+"zh": "乾紙巾放在水面上吸水。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A dry paper towel soaks up water in a bowl. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"8f7564479dc4",
+"1a28ed4d7677"
+],
+"problem": {
+"en": "The white paper towel turns dark brown.",
+"zh": "白色紙巾變成深咖啡色。"
+},
+"g": 24,
+"expected": {
+"zh": "紙巾還是白色，只會因為吸水而變濕。",
+"en": "The paper towel stays white and only gets wet from the water."
+}
+},
+{
+"id": "e2-144",
+"exp": 2,
+"task": {
+"zh": "手持續擠壓塑膠瓶。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A hand squeezes a plastic bottle. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"afbf3fca5dd9",
+"80794d186ab1"
+],
+"problem": {
+"en": "The blue cap is missing from the bottle.",
+"zh": "瓶子的藍色瓶蓋不見了。"
+},
+"g": 37,
+"expected": {
+"zh": "藍色瓶蓋一直在瓶口上。",
+"en": "The blue cap stays on the bottle."
+}
+},
+{
+"id": "e1d-104",
+"exp": 1,
+"task": {
+"zh": "蜂蜜沿斜板往下流。中途畫面被遮住（布簾），之後重新出現。",
+"en": "Honey drips down a ramp. The view is blocked for a while (a curtain), then revealed again."
+},
+"v": [
+"e7ee52743f39",
+"f4e168779bd6"
+],
+"g": 30,
+"c": 0
+},
+{
+"id": "e1d-105",
+"exp": 1,
+"task": {
+"zh": "蜂蜜沿斜板往下流。中途畫面被遮住（布簾），之後重新出現。",
+"en": "Honey drips down a ramp. The view is blocked for a while (a curtain), then revealed again."
+},
+"v": [
+"e7ee52743f39",
+"abdf7050ec03"
+],
+"g": 30,
+"c": 1
+},
+{
+"id": "e1d-106",
+"exp": 1,
+"task": {
+"zh": "蜂蜜沿斜板往下流。中途畫面被遮住（布簾），之後重新出現。",
+"en": "Honey drips down a ramp. The view is blocked for a while (a curtain), then revealed again."
+},
+"v": [
+"e7ee52743f39",
+"29d2ce459419"
+],
+"g": 30,
+"c": 2
+},
+{
+"id": "e1d-107",
+"exp": 1,
+"task": {
+"zh": "蜂蜜沿斜板往下流。中途畫面被遮住（布簾），之後重新出現。",
+"en": "Honey drips down a ramp. The view is blocked for a while (a curtain), then revealed again."
+},
+"v": [
+"e7ee52743f39",
+"1e0b98e9e86f"
+],
+"g": 30,
+"c": 3
+},
+{
+"id": "e1-072",
+"exp": 1,
+"task": {
+"zh": "沙子經漏斗流進罐子。中途畫面被遮住（擋板），之後重新出現。",
+"en": "Sand flows through a funnel into a jar. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"c2d3f34e8ad8",
+"9237296d4370"
+],
+"g": 42,
+"c": 0
+},
+{
+"id": "e1-073",
+"exp": 1,
+"task": {
+"zh": "沙子經漏斗流進罐子。中途畫面被遮住（擋板），之後重新出現。",
+"en": "Sand flows through a funnel into a jar. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"c2d3f34e8ad8",
+"79315fcc40f4"
+],
+"g": 42,
+"c": 1
+},
+{
+"id": "e1-074",
+"exp": 1,
+"task": {
+"zh": "沙子經漏斗流進罐子。中途畫面被遮住（擋板），之後重新出現。",
+"en": "Sand flows through a funnel into a jar. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"c2d3f34e8ad8",
+"2adca26141e0"
+],
+"g": 42,
+"c": 2
+},
+{
+"id": "e1-075",
+"exp": 1,
+"task": {
+"zh": "沙子經漏斗流進罐子。中途畫面被遮住（擋板），之後重新出現。",
+"en": "Sand flows through a funnel into a jar. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"c2d3f34e8ad8",
+"fcb766b06c4d"
+],
+"g": 42,
+"c": 3
+},
+{
+"id": "e1-100",
+"exp": 1,
+"task": {
+"zh": "節拍器來回擺動。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A metronome swings back and forth. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"9eba85f62fce",
+"a3d7e502abb6"
+],
+"g": 50,
+"c": 0
+},
+{
+"id": "e1-101",
+"exp": 1,
+"task": {
+"zh": "節拍器來回擺動。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A metronome swings back and forth. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"9eba85f62fce",
+"8aceca1bce01"
+],
+"g": 50,
+"c": 1
+},
+{
+"id": "e1-102",
+"exp": 1,
+"task": {
+"zh": "節拍器來回擺動。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A metronome swings back and forth. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"9eba85f62fce",
+"a23cdacf829c"
+],
+"g": 50,
+"c": 2
+},
+{
+"id": "e1-103",
+"exp": 1,
+"task": {
+"zh": "節拍器來回擺動。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A metronome swings back and forth. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"9eba85f62fce",
+"7100e3d96944"
+],
+"g": 50,
+"c": 3
+},
+{
+"id": "e1d-000",
+"exp": 1,
+"task": {
+"zh": "球沿木板滾下。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A ball rolls down a plank. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"d010aab47c0a",
+"8bf797f56be7"
+],
+"g": 101,
+"c": 0
+},
+{
+"id": "e1d-001",
+"exp": 1,
+"task": {
+"zh": "球沿木板滾下。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A ball rolls down a plank. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"d010aab47c0a",
+"0167509ddca5"
+],
+"g": 101,
+"c": 1
+},
+{
+"id": "e1d-002",
+"exp": 1,
+"task": {
+"zh": "球沿木板滾下。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A ball rolls down a plank. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"d010aab47c0a",
+"23804ca13e0d"
+],
+"g": 101,
+"c": 2
+},
+{
+"id": "e1d-003",
+"exp": 1,
+"task": {
+"zh": "球沿木板滾下。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A ball rolls down a plank. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"d010aab47c0a",
+"78f365b8d92d"
+],
+"g": 101,
+"c": 3
+},
+{
+"id": "e1d-084",
+"exp": 1,
+"task": {
+"zh": "鍋中的玉米粒受熱爆成爆米花。中途畫面被遮住（關燈），之後重新出現。",
+"en": "Corn kernels pop into popcorn in a pan. The view is blocked for a while (lights off), then revealed again."
+},
+"v": [
+"ecd32f844cc2",
+"49222c8f03d2"
+],
+"g": 103,
+"c": 0
+},
+{
+"id": "e1d-085",
+"exp": 1,
+"task": {
+"zh": "鍋中的玉米粒受熱爆成爆米花。中途畫面被遮住（關燈），之後重新出現。",
+"en": "Corn kernels pop into popcorn in a pan. The view is blocked for a while (lights off), then revealed again."
+},
+"v": [
+"ecd32f844cc2",
+"d05eeb610be3"
+],
+"g": 103,
+"c": 1
+},
+{
+"id": "e1d-086",
+"exp": 1,
+"task": {
+"zh": "鍋中的玉米粒受熱爆成爆米花。中途畫面被遮住（關燈），之後重新出現。",
+"en": "Corn kernels pop into popcorn in a pan. The view is blocked for a while (lights off), then revealed again."
+},
+"v": [
+"ecd32f844cc2",
+"ea63caa5a44c"
+],
+"g": 103,
+"c": 2
+},
+{
+"id": "e1d-087",
+"exp": 1,
+"task": {
+"zh": "鍋中的玉米粒受熱爆成爆米花。中途畫面被遮住（關燈），之後重新出現。",
+"en": "Corn kernels pop into popcorn in a pan. The view is blocked for a while (lights off), then revealed again."
+},
+"v": [
+"ecd32f844cc2",
+"4ab0655d793b"
+],
+"g": 103,
+"c": 3
+},
+{
+"id": "e1d-008",
+"exp": 1,
+"task": {
+"zh": "子彈射向吊著的木塊。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A bullet is fired at a hanging wood block. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"e64e6c9ba233",
+"5d135753df8e"
+],
+"g": 102,
+"c": 0
+},
+{
+"id": "e1d-009",
+"exp": 1,
+"task": {
+"zh": "子彈射向吊著的木塊。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A bullet is fired at a hanging wood block. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"e64e6c9ba233",
+"bea8c201dd9b"
+],
+"g": 102,
+"c": 1
+},
+{
+"id": "e1d-010",
+"exp": 1,
+"task": {
+"zh": "子彈射向吊著的木塊。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A bullet is fired at a hanging wood block. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"e64e6c9ba233",
+"4e633070f69d"
+],
+"g": 102,
+"c": 2
+},
+{
+"id": "e1d-011",
+"exp": 1,
+"task": {
+"zh": "子彈射向吊著的木塊。中途畫面被遮住（擋板），之後重新出現。",
+"en": "A bullet is fired at a hanging wood block. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"e64e6c9ba233",
+"487baf141e63"
+],
+"g": 102,
+"c": 3
+},
+{
+"id": "e1d-072",
+"exp": 1,
+"task": {
+"zh": "色素在水中慢慢擴散。中途畫面被遮住（擋板），之後重新出現。",
+"en": "Food dye spreads in a glass of water. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"e21f5c5b805b",
+"c23395085653"
+],
+"g": 104,
+"c": 0
+},
+{
+"id": "e1d-073",
+"exp": 1,
+"task": {
+"zh": "色素在水中慢慢擴散。中途畫面被遮住（擋板），之後重新出現。",
+"en": "Food dye spreads in a glass of water. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"e21f5c5b805b",
+"1583022668ad"
+],
+"g": 104,
+"c": 1
+},
+{
+"id": "e1d-074",
+"exp": 1,
+"task": {
+"zh": "色素在水中慢慢擴散。中途畫面被遮住（擋板），之後重新出現。",
+"en": "Food dye spreads in a glass of water. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"e21f5c5b805b",
+"bf097094b4dc"
+],
+"g": 104,
+"c": 2
+},
+{
+"id": "e1d-075",
+"exp": 1,
+"task": {
+"zh": "色素在水中慢慢擴散。中途畫面被遮住（擋板），之後重新出現。",
+"en": "Food dye spreads in a glass of water. The view is blocked for a while (a board), then revealed again."
+},
+"v": [
+"e21f5c5b805b",
+"c08cfd77f67e"
+],
+"g": 104,
+"c": 3
+}
+],
+"practice": [
+{
+"id": "ex1",
+"task": {
+"zh": "加熱燈下的陶盆逐漸乾燥。中途畫面被遮住（布簾），之後重新出現。",
+"en": "A clay pot dries under a heat lamp. The view is blocked for a while (a curtain), then revealed again."
+},
+"left": "ex1-a",
+"right": "ex1-b",
+"answers": {
+"a1": "L",
+"a2": "L"
+},
+"explain": {
+"zh": "Q1 選 A：A 揭開後還是同一個陶盆和加熱燈，B 的整個場景都被換掉了。Q2 也選 A：A 揭開後陶盆仍在加熱燈下冒出水氣，延續遮住前的乾燥過程；B 的場景已經不同，看不出遮住期間的狀態變化。",
+"en": "Q1 is A: after the reveal, A still shows the same pot and heat lamp, while B replaces the whole scene. Q2 is also A: in A the pot still steams under the lamp, so the drying continues from before the occlusion, while B shows a different scene, so the change of state during the occlusion cannot be seen."
+},
+"exp": 1
+},
+{
+"id": "ex2",
+"exp": 2,
+"task": {
+"zh": "輪胎正在打氣。中途畫面被遮住（布簾），之後重新出現。",
+"en": "A tire is being inflated. The view is blocked for a while (a curtain), then revealed again."
+},
+"problem": {
+"zh": "揭開後，輪胎變成另一個乾淨、光滑的新輪胎。",
+"en": "After the reveal, the tire turns into a different, clean and smooth new tire."
+},
+"left": "ex2-a",
+"right": "ex2-b",
+"answers": {
+"a1": "R",
+"a2": "R"
+},
+"explain": {
+"zh": "Q1 選 B：A 揭開後輪胎變成乾淨光滑的新輪胎，B 還是原本沾灰、有紋路的舊輪胎，所以 B 的這個問題比較輕微。Q2 也選 B：B 揭開後還是同一個輪胎，延續遮住前的打氣過程；A 的輪胎被換掉，看不出遮住期間的狀態變化。",
+"en": "Q1 is B: after the reveal, A shows a clean, smooth new tire, while B still shows the original dusty, knobby tire, so this problem is milder in B. Q2 is also B: B keeps the same tire, so the inflation continues from before the occlusion, while A replaced the tire, so the change of state during the occlusion cannot be seen."
+},
+"expected": {
+"zh": "還是原本那個沾灰、有紋路的輪胎，只是慢慢變飽滿。",
+"en": "It is still the same dusty, knobby tire, only gradually fuller."
+}
+}
+],
+"built": "2026-11-20"
+}
