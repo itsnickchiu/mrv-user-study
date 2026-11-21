@@ -114,7 +114,7 @@ function submit(answer) {
   }
   const keys = JSON.parse(import.meta.env.VITE_GOOGLE_FORM_ENTRIES)
   const values = [email.value, session, item.ridx, item.id, item.left, item.right,
-    answer.a1, answer.a2, answer.seconds, lang.value]
+    answer.a1, answer.a2, answer.seconds, lang.value, answer.a3]
   // Same submission path as the lab template (prefilled Google Form response, fire and forget), with encoded values.
   const query = keys.map((k, i) => `${k}=${encodeURIComponent(values[i])}`).join('&')
   fetch(`${import.meta.env.VITE_GOOGLE_FORM_URL}?${query}`, { mode: 'no-cors' })
@@ -362,18 +362,20 @@ onBeforeUnmount(() => {
         <template v-if="current.intro === 'practice'">
           <h2>{{ lang === 'zh-TW' ? '作答方式' : 'How to answer' }}</h2>
           <template v-if="lang === 'zh-TW'">
-            <p>每一題會有兩支影片（A 和 B）。影片中途畫面會被遮住一段時間，之後重新出現。請看完兩支影片，回答兩個問題：</p>
+            <p>每一題會有兩支影片（A 和 B）。影片中途畫面會被遮住一段時間，之後重新出現。請看完兩支影片，回答三個問題：</p>
             <ol class="parts">
               <li>揭開後，哪支影片的「物體和場景」<b>保持得比較好</b>？</li>
-              <li>比較「遮住前」和「揭開後」，哪支影片的<b>狀態變化比較合理</b>？</li>
+              <li>比較「遮住前」和「揭開後」，哪支影片的<b>狀態有正確往前演進</b>？</li>
+              <li>哪支影片的動作和變化<b>比較符合物理常識</b>？</li>
             </ol>
             <p>兩支差不多時可以選「差不多」。下面先做 {{ nPractice }} 題例題，<b>不計分</b>，答完會顯示正確答案和說明。</p>
           </template>
           <template v-else>
-            <p>Each question shows two videos (A and B). Partway through, the view is blocked for a while and then revealed again. Watch both videos and answer two questions:</p>
+            <p>Each question shows two videos (A and B). Partway through, the view is blocked for a while and then revealed again. Watch both videos and answer three questions:</p>
             <ol class="parts">
               <li>After the reveal, in which video are “the objects and the scene” <b>better preserved</b>?</li>
-              <li>Comparing “before the occlusion” and “after the reveal”, which video shows a more <b>plausible change of state</b>?</li>
+              <li>Comparing “before the occlusion” and “after the reveal”, in which video has <b>the state progressed correctly</b>?</li>
+              <li>Which video’s motion and changes are <b>more physically plausible</b>?</li>
             </ol>
             <p>If the two look the same, choose "About the same". First, a practice question. It is <b>not recorded</b>, and the correct answer and explanation are shown afterwards.</p>
           </template>
@@ -385,8 +387,8 @@ onBeforeUnmount(() => {
           <p v-else>There are <b>{{ nRated }} questions</b> in two parts, about 10 to 15 minutes:</p>
           <ol class="parts">
             <li :class="{ now: true }">
-              <template v-if="lang === 'zh-TW'"><b>第一部分（{{ nRated - nPart2 }} 題）</b>：{{ nPractice ? '和例題一樣的兩個問題。' : '比較兩支影片揭開後的物體和場景，以及遮住前後的狀態變化是否合理。' }}</template>
-              <template v-else><b>Part 1 ({{ nRated - nPart2 }} questions)</b>: {{ nPractice ? 'the same two questions as in the practice.' : 'compare the objects and the scene after the reveal, and whether the change of state from before the occlusion is plausible.' }}</template>
+              <template v-if="lang === 'zh-TW'"><b>第一部分（{{ nRated - nPart2 }} 題）</b>：{{ nPractice ? '和例題一樣的三個問題。' : '比較兩支影片揭開後的物體和場景、狀態是否正確演進，以及是否符合物理常識。' }}</template>
+              <template v-else><b>Part 1 ({{ nRated - nPart2 }} questions)</b>: {{ nPractice ? 'the same three questions as in the practice.' : 'compare the objects and the scene after the reveal, whether the state progressed correctly, and whether it is physically plausible.' }}</template>
             </li>
             <li>
               <template v-if="lang === 'zh-TW'"><b>第二部分（{{ nPart2 }} 題）</b>：比較影片中某個問題的嚴重程度，開始前會再說明。</template>
@@ -404,18 +406,20 @@ onBeforeUnmount(() => {
         <template v-else>
           <h2>{{ lang === 'zh-TW' ? '第二部分（' + nPart2 + ' 題）：新的題型' : 'Part 2 (' + nPart2 + ' questions): a new type' }}</h2>
           <template v-if="lang === 'zh-TW'">
-            <p>第一部分結束。接下來每一題的影片上方會列出<b class="prob">一個問題</b>，下面一行寫出<b class="ok">正確應該是</b>什麼樣子。請看完兩支影片，回答兩個問題：</p>
+            <p>第一部分結束。接下來每一題的影片上方會列出<b class="prob">一個問題</b>，下面一行寫出<b class="ok">正確應該是</b>什麼樣子。請看完兩支影片，回答三個問題：</p>
             <ol class="parts">
               <li>哪支影片的<b class="prob">這個問題</b>比較輕微？</li>
-              <li>比較「遮住前」和「揭開後」，哪支影片的<b>狀態變化比較合理</b>？</li>
+              <li>比較「遮住前」和「揭開後」，哪支影片的<b>狀態有正確往前演進</b>？</li>
+              <li>哪支影片的動作和變化<b>比較符合物理常識</b>？</li>
             </ol>
             <p>兩支差不多時可以選「差不多」。{{ nPractice2 ? '下面先做 ' + nPractice2 + ' 題例題，不計分，答完會顯示正確答案和說明。' : '' }}</p>
           </template>
           <template v-else>
-            <p>Part 1 is done. From now on, <b class="prob">a problem</b> is described above the videos, and the line below it says what <b class="ok">should</b> happen. Watch both videos and answer two questions:</p>
+            <p>Part 1 is done. From now on, <b class="prob">a problem</b> is described above the videos, and the line below it says what <b class="ok">should</b> happen. Watch both videos and answer three questions:</p>
             <ol class="parts">
               <li>In which video is <b class="prob">this problem</b> less severe?</li>
-              <li>Comparing “before the occlusion” and “after the reveal”, which video shows a more <b>plausible change of state</b>?</li>
+              <li>Comparing “before the occlusion” and “after the reveal”, in which video has <b>the state progressed correctly</b>?</li>
+              <li>Which video’s motion and changes are <b>more physically plausible</b>?</li>
             </ol>
             <p>If the two look the same, choose "About the same".{{ nPractice2 ? ' First, a practice question. It is not recorded, and the correct answer and explanation are shown afterwards.' : '' }}</p>
           </template>

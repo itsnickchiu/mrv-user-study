@@ -15,6 +15,7 @@ const problemPair = computed(() => props.item.exp === 2)
 // Answers are recorded as L (left video), R (right video) or S (about the same).
 const a1 = ref(null)
 const a2 = ref(null)
+const a3 = ref(null)
 const ended = ref({ left: false, right: false })
 const watched = computed(() => ended.value.left && ended.value.right)
 const showWarning = ref(false)
@@ -45,20 +46,22 @@ onMounted(() => playBoth())
 // Key words are highlighted (<em>) so raters see what each question asks; static strings only.
 const Q_SCENE = { zh: '揭開後，哪支影片的「物體和場景」<em>保持得比較好</em>？', zhHint: '沒有被換掉、消失、變形或突然跳位',
   en: 'After the reveal, in which video are “the objects and the scene” <em>better preserved</em>?', enHint: 'nothing replaced, missing, deformed or jumping' }
-const Q_PROCESS = { zh: '比較「遮住前」和「揭開後」，哪支影片的<em>狀態變化比較合理</em>？', zhHint: '例如該融化的繼續融化、該掉下的已經落下，沒有停住或倒退',
-  en: 'Comparing “before the occlusion” and “after the reveal”, which video shows a more <em>plausible change of state</em>?', enHint: 'e.g. what should melt keeps melting, what should fall has fallen, nothing freezes or goes backwards' }
+const Q_PROCESS = { zh: '比較「遮住前」和「揭開後」，哪支影片的<em>狀態有正確往前演進</em>？', zhHint: '例如該融化的繼續融化、該掉下的已經落下，沒有停住或倒退',
+  en: 'Comparing “before the occlusion” and “after the reveal”, in which video has <em>the state progressed correctly</em>?', enHint: 'e.g. what should melt keeps melting, what should fall has fallen, nothing freezes or goes backwards' }
+const Q_PHYS = { zh: '哪支影片的動作和變化<em>比較符合物理常識</em>？', zhHint: '例如東西不會憑空出現或消失、不會穿過其他物體、液體往下流',
+  en: 'Which video’s motion and changes are <em>more physically plausible</em>?', enHint: 'e.g. nothing appears or vanishes from nowhere, nothing passes through other objects, liquids flow down' }
 const Q_PROBLEM = { zh: '哪支影片的<em class="prob">這個問題</em>比較輕微？', en: 'In which video is <em class="prob">this problem</em> less severe?' }
 const questions = computed(() => (problemPair.value
-  ? [{ key: 'a1', ...Q_PROBLEM, same: true }, { key: 'a2', ...Q_PROCESS, same: true }]
-  : [{ key: 'a1', ...Q_SCENE, same: true }, { key: 'a2', ...Q_PROCESS, same: true }]))
-const answers = { a1, a2 }
+  ? [{ key: 'a1', ...Q_PROBLEM, same: true }, { key: 'a2', ...Q_PROCESS, same: true }, { key: 'a3', ...Q_PHYS, same: true }]
+  : [{ key: 'a1', ...Q_SCENE, same: true }, { key: 'a2', ...Q_PROCESS, same: true }, { key: 'a3', ...Q_PHYS, same: true }]))
+const answers = { a1, a2, a3 }
 
 // Practice items: the first click reveals the correct answers and the explanation, the second moves on.
 const feedback = ref(false)
-const correct = computed(() => props.item.practice && a1.value === props.item.answers.a1 && a2.value === props.item.answers.a2)
+const correct = computed(() => props.item.practice && a1.value === props.item.answers.a1 && a2.value === props.item.answers.a2 && a3.value === props.item.answers.a3)
 
 function submit() {
-  if (!watched.value || a1.value === null || a2.value === null) {
+  if (!watched.value || a1.value === null || a2.value === null || a3.value === null) {
     showWarning.value = true
     return
   }
@@ -67,7 +70,7 @@ function submit() {
     feedback.value = true
     return
   }
-  emit('submit', { a1: a1.value, a2: a2.value, seconds: Math.round((Date.now() - started) / 1000) })
+  emit('submit', { a1: a1.value, a2: a2.value, a3: a3.value, seconds: Math.round((Date.now() - started) / 1000) })
 }
 </script>
 
