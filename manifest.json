@@ -810,11 +810,12 @@
 "right": "ex1-b",
 "answers": {
 "a1": "L",
-"a2": "L"
+"a2": "L",
+"a3": "L"
 },
 "explain": {
-"zh": "Q1 選 A：A 揭開後還是同一個陶盆和加熱燈，B 的整個場景都被換掉了。Q2 也選 A：A 揭開後陶盆仍在加熱燈下冒出水氣，延續遮住前的乾燥過程；B 的場景已經不同，看不出遮住期間的狀態變化。",
-"en": "Q1 is A: after the reveal, A still shows the same pot and heat lamp, while B replaces the whole scene. Q2 is also A: in A the pot still steams under the lamp, so the drying continues from before the occlusion, while B shows a different scene, so the change of state during the occlusion cannot be seen."
+"zh": "Q1 選 A：A 揭開後還是同一個陶盆和加熱燈，B 的整個場景都被換掉了。Q2 也選 A：A 揭開後陶盆仍在加熱燈下冒出水氣，乾燥過程有往前演進；B 的場景已經不同，看不出遮住期間的狀態變化。Q3 也選 A：B 的陶盆和加熱燈憑空消失、換成別的東西，不符合物理常識。",
+"en": "Q1 is A: after the reveal, A still shows the same pot and heat lamp, while B replaces the whole scene. Q2 is also A: in A the pot still steams under the lamp, so the drying has progressed, while B shows a different scene. Q3 is also A: in B the pot and the lamp vanish and are replaced by other objects, which is not physically plausible."
 },
 "exp": 1
 },
@@ -833,11 +834,12 @@
 "right": "ex2-b",
 "answers": {
 "a1": "R",
-"a2": "R"
+"a2": "R",
+"a3": "R"
 },
 "explain": {
-"zh": "Q1 選 B：A 揭開後輪胎變成乾淨光滑的新輪胎，B 還是原本沾灰、有紋路的舊輪胎，所以 B 的這個問題比較輕微。Q2 也選 B：B 揭開後還是同一個輪胎，延續遮住前的打氣過程；A 的輪胎被換掉，看不出遮住期間的狀態變化。",
-"en": "Q1 is B: after the reveal, A shows a clean, smooth new tire, while B still shows the original dusty, knobby tire, so this problem is milder in B. Q2 is also B: B keeps the same tire, so the inflation continues from before the occlusion, while A replaced the tire, so the change of state during the occlusion cannot be seen."
+"zh": "Q1 選 B：A 揭開後輪胎變成乾淨光滑的新輪胎，B 還是原本沾灰、有紋路的舊輪胎，所以 B 的這個問題比較輕微。Q2 也選 B：B 揭開後還是同一個輪胎，打氣過程有往前演進；A 的輪胎被換掉，看不出遮住期間的狀態變化。Q3 也選 B：A 的舊輪胎憑空變成另一個新輪胎，不符合物理常識。",
+"en": "Q1 is B: after the reveal, A shows a clean, smooth new tire, while B still shows the original dusty, knobby tire, so this problem is milder in B. Q2 is also B: B keeps the same tire, so the inflation has progressed, while A replaced the tire. Q3 is also B: in A the old tire turns into a different new tire, which is not physically plausible."
 },
 "expected": {
 "zh": "還是原本那個沾灰、有紋路的輪胎，只是慢慢變飽滿。",
